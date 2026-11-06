@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - TARGET_URL=https://indufar.com.py
+      - REDIRECT_DELAY_MS=100
+    restart: unless-stopped
