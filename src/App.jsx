@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const DEFAULT_TARGET_URL = 'https://indufar.com.py';
+const DEFAULT_TARGET_URL = 'https://www.indufar.com.py/blog/10';
 const DEFAULT_DELAY_MS = 100; // 0.1 seconds
 
 export default function App() {

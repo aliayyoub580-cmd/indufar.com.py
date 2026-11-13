@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const TARGET_URL = process.env.TARGET_URL || 'https://indufar.com.py';
+const TARGET_URL = process.env.TARGET_URL || 'https://www.indufar.com.py/blog/10';
 const REDIRECT_DELAY_MS = parseInt(process.env.REDIRECT_DELAY_MS || '100', 10);
 const distPath = path.join(__dirname, 'dist');
 
